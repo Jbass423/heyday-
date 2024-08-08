@@ -1,0 +1,139 @@
+.details-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    flex-wrap: wrap;
+    height: 700px;
+    background-color: rgb(11, 11, 11);
+}
+
+.business-name {
+    text-decoration: underline;
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: rgb(29, 117, 185)
+}
+
+.address,
+.business-type,
+.description,
+.phone-number {
+    
+    margin: 5px 0;
+    font-size: 1.1em;
+    color: #f0f0f0;
+}
+
+.section-title {
+    text-decoration: underline;
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: rgb(29, 117, 185)
+}
+
+.diet-list,
+.happy-hour-list {
+    
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.diet-item,
+.happy-hour-item {
+    background-color: #f0f0f0;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+.image-gallery {
+    margin-top: 20px;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+.business-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.next-button {
+    padding: 10px 20px;
+    background-color: #DC143C;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.favorite-button {
+    background-color: transparent;
+    border: none;
+    font-size: 2em;
+    color: rgb(216, 211, 211);
+    cursor: pointer;
+}
+
+.favorite-button:hover {
+    opacity: 0.2;
+}
+
+.favorite-button .favorited {
+    color: #1E90FF; /* Blue color for favorited icon */
+}
+
+.next-icon {
+    border: #ffffff;
+    border-radius: 20px;
+    opacity: 0.9;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Link Styles */
+a {
+    color: rgb(116, 74, 255); /* Link color */
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+.btn_asLink {
+    color: rgb(17, 83, 137) !important; 
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 1em;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.btn_asLink:hover {
+    color: #0056b3; /* Darker blue on hover for a nice effect */
+}

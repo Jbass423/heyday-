@@ -1,0 +1,9 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+  }
+  
+  * {
+    box-sizing: border-box; /* Ensure padding and borders do not affect width */
+  }

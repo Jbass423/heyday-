@@ -1,0 +1,82 @@
+.search-history-container {
+    padding: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(11, 11, 11);
+    border-radius: 10px;
+  }
+  
+  .titleone {
+    font-size: 2em;
+    text-align: center;
+    color: #fffcfc;
+    margin-bottom: 20px;
+  }
+  
+  .history-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-height: 450px;
+    overflow-y: auto;
+    overflow-x: hidden; /* vert scroll */
+    padding: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin: 20px 0;
+    background-color: #3d3636;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .history-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .btn_asLink {
+    color: rgb(116, 74, 255) !important;
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 1em;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .btn_asLink:hover {
+    color: #0056b3 !important;
+  }
+  
+  .delete-button {
+    background-color: #057;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 0.55em; 
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 120px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .delete-button:hover {
+    background-color: #046; 
+  }
+  
+.navfour {
+    margin-left: -55px;
+}

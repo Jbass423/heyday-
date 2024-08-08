@@ -1,0 +1,50 @@
+.buslandingbar {
+    margin-left: -53px;
+  }
+  
+  .text-input,
+  .date-input,
+  .time-input,
+  .select-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  .text-input::placeholder,
+  .date-input::placeholder,
+  .time-input::placeholder {
+    color: #888;
+  }
+  
+  .select-input {
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .busland {
+    color: aliceblue;
+    text-decoration: underline;
+  }
+  
+  .buslandtwo {
+    color: aliceblue;
+  }
+  
+  body {
+    overflow: hidden;
+  }
+  
+  .buslandingbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    z-index: 1000;
+  }

@@ -1,0 +1,10 @@
+.formPanel {
+  margin-top: 35px !important;
+  padding: 20px !important;
+  background-color: rgb(78, 73, 73) !important;
+  color: rgb(221, 218, 218);
+}
+
+.logone {
+  text-decoration: underline;
+}

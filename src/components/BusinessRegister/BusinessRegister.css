@@ -1,0 +1,19 @@
+.regbus {text-decoration: underline;}
+
+.register-button {
+    background-color: #057;
+    color: #fff;
+    font-weight: bold; 
+    border-radius: 9px; 
+    margin: 8px; 
+    font-size: 0.875rem; 
+    border: none; 
+    padding: 8px 16px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-button:hover {
+    background-color: #046;
+  }
+  

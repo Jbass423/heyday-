@@ -1,0 +1,76 @@
+{
+  "name": "heyday",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=18.x"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@googlemaps/react-wrapper": "^1.1.35",
+    "@mui/icons-material": "^5.16.4",
+    "@mui/material": "^5.16.4",
+    "@nlpjs/core": "^4.26.1",
+    "@nlpjs/lang-en-min": "^4.26.1",
+    "@nlpjs/nlp": "^4.27.0",
+    "@react-google-maps/api": "^2.19.3",
+    "axios": "^1.6.8",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.3.3",
+    "connect-pg-simple": "^9.0.1",
+    "cors": "^2.8.5",
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "history": "^5.3.0",
+    "leaflet": "^1.9.4",
+    "natural": "^7.1.0",
+    "node-geocoder": "^4.3.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "pg": "^8.5.1",
+    "puppeteer": "^22.13.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.3.4",
+    "redux": "^4.1.2",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^1.1.3",
+    "yelp-fusion": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "client": "vite",
+    "server": "nodemon --watch server server/server.js",
+    "build": "vite build",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "nodemon": "^3.1.0",
+    "vite": "^5.2.11",
+    "vitest": "^1.6.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "heroku-run-build-script": true
+}
